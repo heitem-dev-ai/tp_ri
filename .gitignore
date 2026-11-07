@@ -1,0 +1,5 @@
+(
+echo GUIDE_PROJET_RI_PHASE1.pdf
+echo generer_pdf.py
+echo generer_rapports.py
+) > .gitignore
