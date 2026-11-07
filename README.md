@@ -64,3 +64,14 @@ Chaque modèle est enregistré sous forme de deux orientations de matrice et d'u
 ## Notes
 
 Les étapes stopwords, stemming et lemmatisation utilisent des listes et règles simples codées dans le projet. La lemmatisation est donc pédagogique et approximative. Le comptage vectoriel et les opérations sur les matrices reposent encore sur scikit-learn et NumPy. Le moteur de recherche côté utilisateur appartient à la phase suivante.
+
+## Rapports PDF
+
+Le dossier contient `RAPPORT_FINAL_PHASE1.pdf` (rapport pour l'évaluation) et `GUIDE_PROJET_RI_PHASE1.pdf` (guide de démonstration). Pour les régénérer après une modification du projet, installer ReportLab puis lancer :
+
+```powershell
+python -m pip install reportlab
+python generer_rapports.py
+```
+
+La dépendance ReportLab n'est nécessaire que pour générer les PDF, pas pour lancer l'application.
